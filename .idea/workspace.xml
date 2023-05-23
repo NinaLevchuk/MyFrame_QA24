@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0098ff96-dfdb-4c03-a05c-731ee36ead3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/ActionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/Waiters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PageSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PageThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/TestResultListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageSecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageThreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PaanLZK4OLHXq7rBHMrvR18eYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utils" />
+      <recent name="" />
+      <recent name="Pages" />
+      <recent name="Functions" />
+      <recent name="Driver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Инна/IdeaProjects/MyFrame_QA24/src/test/resources/testng.xml">
+    <configuration name="C:/Users/Инна/IdeaProjects/MyFrame_QA24/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFrame_QA24" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.locationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFrame_QA24" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="locationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageThreeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFrame_QA24" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageThreeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageThreeTest.sectionNoytTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFrame_QA24" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageThreeTest" />
+      <option name="METHOD_NAME" value="sectionNoytTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageThreeTest.titleNoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFrame_QA24" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageThreeTest" />
+      <option name="METHOD_NAME" value="titleNoutTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Инна/IdeaProjects/MyFrame_QA24/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.MainPageTest.locationTest" />
+        <item itemvalue="TestNG.PageThreeTest.sectionNoytTest" />
+        <item itemvalue="TestNG.PageThreeTest.titleNoutTest" />
+        <item itemvalue="TestNG.PageThreeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0098ff96-dfdb-4c03-a05c-731ee36ead3d" name="Changes" comment="" />
+      <created>1683697813855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683697813855</updated>
+      <workItem from="1683697815303" duration="3847000" />
+      <workItem from="1683702638686" duration="92000" />
+      <workItem from="1683702738489" duration="153000" />
+      <workItem from="1683702901061" duration="125000" />
+      <workItem from="1683703033949" duration="3594000" />
+      <workItem from="1683797575308" duration="3355000" />
+      <workItem from="1683803837751" duration="1505000" />
+      <workItem from="1683872917569" duration="14691000" />
+      <workItem from="1683900437397" duration="4967000" />
+      <workItem from="1683908282596" duration="4338000" />
+      <workItem from="1684079069896" duration="2604000" />
+      <workItem from="1684131096273" duration="16920000" />
+      <workItem from="1684156301900" duration="21490000" />
+      <workItem from="1684225405877" duration="12487000" />
+      <workItem from="1684238390415" duration="15045000" />
+      <workItem from="1684317384117" duration="11773000" />
+      <workItem from="1684334949878" duration="5818000" />
+      <workItem from="1684351034683" duration="2778000" />
+      <workItem from="1684405551875" duration="11931000" />
+      <workItem from="1684512946534" duration="998000" />
+      <workItem from="1684513966308" duration="7868000" />
+      <workItem from="1684523770308" duration="1401000" />
+      <workItem from="1684525276116" duration="155000" />
+      <workItem from="1684527146764" duration="441000" />
+      <workItem from="1684527612292" duration="3710000" />
+      <workItem from="1684852705348" duration="2023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
