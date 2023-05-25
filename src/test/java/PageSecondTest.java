@@ -57,7 +57,7 @@ public class PageSecondTest extends BaseTest {
         String resFiltr = "Торгова марка: SAMSUNG";
         assertions.equalsOfStrings(elements.getTextFromElementBy(By.xpath("//span[@class='listing__sidebar-tags__link']")), resFiltr);
     }
-     /*@Test(priority = 3)
+     /*@Test(priority = 6)
     public void sravnenieTelekTest() { // сравнение выбранных телевизоров +
         mainPage.openPage();//обращаемся к классу mainPage и вызываем метод открыть страницу
         mainPage.acceptCity();//обращаемся к классу mainPage и вызываем метод подтвердить местоположение
