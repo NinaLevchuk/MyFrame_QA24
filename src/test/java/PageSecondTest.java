@@ -20,8 +20,8 @@ public class PageSecondTest extends BaseTest {
 
     @Test(priority = 2)
     public void sectionTelekTest() { // Телевизоры, наличие секций, торговой марки +
-        mainPage.openPage();//мы обращаемся к классу mainPage и вызываем метод открыть страницу
-        //mainPage.acceptCity();//мы обращаемся к классу mainPage и вызываем метод подтвердить местоположение
+        mainPage.openPage();//обращаемся к классу mainPage и вызываем метод открыть страницу
+        //mainPage.acceptCity();//обращаемся к классу mainPage и вызываем метод подтвердить местоположение
         mainPage.switchToSectionTelek();
         secondPage.clickOnElement(By.xpath("//div[@id='group-9501']"));
         List<WebElement> filter = driver.findElements
