@@ -39,10 +39,28 @@ public class PageSecondTest extends BaseTest {
         String titleTelek = "Телевізори у Запоріжжі купити за найкращою ціною ➥ Фокстрот";
         assertions.equalsOfStrings(driver.getTitle(), titleTelek);
     }
-    @Test(priority = 3)
-    public void sravnenieTelekTest() { // сравнение выбранных телевизоров +
+    @Test(priority = 5)
+    public void ChepExpensivTelekTest() { //+
         mainPage.openPage();//обращаемся к классу mainPage и вызываем метод открыть страницу
         //mainPage.acceptCity();//обращаемся к классу mainPage и вызываем метод подтвердить местоположение
+        mainPage.switchToSectionTelek();
+        secondPage.checChepExpensivTelek();
+        String theMinPrice = "3 999 ₴";
+        assertions.equalsOfStrings(elements.getTextFromElementBy(By.xpath("//div[@data-id='3643']/following-sibling::div/div[2]/div/div/div[2]")), theMinPrice);
+    }
+    @Test(priority = 3)
+    public void filterTelekSamsungTest() { // Samsung
+        mainPage.openPage();//обращаемся к классу mainPage и вызываем метод открыть страницу
+        //mainPage.acceptCity();//обращаемся к классу mainPage и вызываем метод подтвердить местоположение
+        mainPage.switchToSectionTelek();
+        secondPage.fiLterSectionS();
+        String resFiltr = "Торгова марка: SAMSUNG";
+        assertions.equalsOfStrings(elements.getTextFromElementBy(By.xpath("//span[@class='listing__sidebar-tags__link']")), resFiltr);
+    }
+     /*@Test(priority = 3)
+    public void sravnenieTelekTest() { // сравнение выбранных телевизоров +
+        mainPage.openPage();//обращаемся к классу mainPage и вызываем метод открыть страницу
+        mainPage.acceptCity();//обращаемся к классу mainPage и вызываем метод подтвердить местоположение
         mainPage.switchToSectionTelek();
         secondPage.sravnenieTelek();
         secondPage.checkButtonTelek();
@@ -53,18 +71,8 @@ public class PageSecondTest extends BaseTest {
         for (int i = 0; i < massivIsTexta.length; i++) {
             assertions.equalsOfStrings(listofCompare.get(i).getText(), massivIsTexta[i]);
         }
-    }
-    @Test(priority = 5)
-    public void ChepExpensivTelekTest() { //+
-        mainPage.openPage();//обращаемся к классу mainPage и вызываем метод открыть страницу
-        //mainPage.acceptCity();//обращаемся к классу mainPage и вызываем метод подтвердить местоположение
-        mainPage.switchToSectionTelek();
-        secondPage.checChepExpensivTelek();
-        String theMinPrice="3 999 ₴";
-        assertions.equalsOfStrings(elements.getTextFromElementBy(By.xpath("//div[@data-id='3643']/following-sibling::div/div[2]/div/div/div[2]")),theMinPrice);
-    }
+    }*/
 }
-
 
 
 

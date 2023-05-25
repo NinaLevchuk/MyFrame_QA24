@@ -25,6 +25,8 @@ public class PageSecond extends BasePage {  //extends(наследуется) о
         private final static By praceOneTelek = By.xpath("//a[@data-id='4429']/span[2]");//
         private final static By сhepExpensivTelek = By.xpath("//ul[@class='listing__body-sort']/li[4]");//
         private final static By praceChepTelek = By.xpath("//div[@data-id='3643']/following-sibling::div/div[2]/div/div/div[2]");//
+        private final static By samsungTelek = By.xpath("//a [@href='/uk/shop/zaporozhye/led_televizory_samsung.html']");//
+        private final static By okSamsungTelek = By.xpath("//input[@class='listing__sidebar-range-submit button btn-submit']");//
     }
 
     private static class Label {
@@ -96,8 +98,11 @@ public class PageSecond extends BasePage {  //extends(наследуется) о
         waiters.waitVisabilityOfWebElent(Locators.praceChepTelek);
 
     }
-
-    }
+    ///
+    public void fiLterSectionS(){
+        elements.clickOnElementBy(Locators.samsungTelek);
+        elements.clickOnElementBy(Locators.okSamsungTelek);
+    }}
 
 
 
